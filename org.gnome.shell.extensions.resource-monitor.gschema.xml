@@ -1,0 +1,29 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.resource-monitor" path="/org/gnome/shell/extensions/resource-monitor/">
+    <key name="cpu-display" type="b">
+      <default>true</default>
+      <summary>Display cpu</summary>
+      <description>Set to false to remove cpu display in status bar</description>
+    </key>
+    <key name="memory-display" type="b">
+      <default>true</default>
+      <summary>Display memory</summary>
+      <description>Set to false to remove memory display in status bar</description>
+    </key>
+    <key name="swap-display" type="b">
+      <default>true</default>
+      <summary>Display swap</summary>
+      <description>Set to false to remove swap display in status bar</description>
+    </key>
+    <key name="net-display" type="b">
+      <default>false</default>
+      <summary>Display net</summary>
+      <description>Set to false to remove net display in status bar</description>
+    </key>
+    <key name="center-display" type="b">
+      <default>false</default>
+      <summary>Display informations next to the clock</summary>
+      <description>True: Set information at the center, False: Set information in status bar (at top right)</description>
+    </key>
+  </schema>
+</schemalist>
